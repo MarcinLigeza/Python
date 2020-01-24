@@ -10,7 +10,7 @@ print (str(sys.argv[1]))
 
 array = jsonData['input_list']
 
-print ('Nieposortowana tablica: ' )
+print ('Unsorted array: ' )
 print (array)
 
 for i in range(len(array)-1):
@@ -20,5 +20,5 @@ for i in range(len(array)-1):
 			array[i] = array[i+1]
 			array[i+1] = temp
 			
-print ('\nPosortowana Tablica:')
+print ('\nSorted array:')
 print (array)
